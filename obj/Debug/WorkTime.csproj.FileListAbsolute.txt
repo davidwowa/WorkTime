@@ -16,10 +16,3 @@ C:\Users\wzakrevskyy\documents\visual studio 2012\Projects\WorkTime\WorkTime\obj
 C:\Users\wzakrevskyy\documents\visual studio 2012\Projects\WorkTime\WorkTime\bin\Debug\WorkTime.exe.CodeAnalysisLog.xml
 C:\Users\wzakrevskyy\documents\visual studio 2012\Projects\WorkTime\WorkTime\bin\Debug\WorkTime.exe.lastcodeanalysissucceeded
 C:\Users\wzakrevskyy\documents\visual studio 2012\Projects\WorkTime\WorkTime\obj\Debug\WorkTime.csprojResolveAssemblyReference.cache
-C:\Users\wdzak\workspaces\workspace\WorkTime\bin\Debug\WorkTime.exe.config
-C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Debug\WorkTime.csproj.ResolveComReference.cache
-C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Debug\WorkTime.exe
-C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Debug\WorkTime.pdb
-C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Debug\WorkTime.csprojResolveAssemblyReference.cache
-C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Debug\WorkTime.WorkTimeForm.resources
-C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Debug\WorkTime.csproj.GenerateResource.Cache

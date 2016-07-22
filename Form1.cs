@@ -10,11 +10,10 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using Microsoft.WindowsAPICodePack;
 using Microsoft.WindowsAPICodePack.Shell;
-using Sidebar;
 
 namespace WorkTime
 {
-    public partial class WorkTimeForm : GlassForm
+    public partial class WorkTimeForm : Form
     {
         private TimeCore timeCore;
 
@@ -69,6 +68,11 @@ namespace WorkTime
         private void currentTimeTimer_Tick(object sender, EventArgs e)
         {
             segmentScreen.DisplayTime = DateTime.Now;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

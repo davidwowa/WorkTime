@@ -1,0 +1,6 @@
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Release\WorkTime.WorkTimeForm.resources
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Release\WorkTime.Properties.Resources.resources
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Release\WorkTime.csproj.GenerateResource.Cache
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Release\WorkTime.exe
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\Release\WorkTime.pdb
+C:\Users\wdzak\workspaces\workspace\WorkTime\bin\Release\WorkTime.exe.config

@@ -49,7 +49,7 @@
             // panel1
             // 
             this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.screenPause);
             this.panel1.Controls.Add(this.label1);
@@ -65,6 +65,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(518, 323);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label2
             // 
@@ -85,9 +86,9 @@
             this.screenPause.DisplayHour = 0;
             this.screenPause.DisplayMin = 0;
             this.screenPause.DisplaySec = 0;
-            this.screenPause.DisplayTime = new System.DateTime(2012, 11, 9, 0, 0, 0, 0);
+            this.screenPause.DisplayTime = new System.DateTime(2016, 7, 22, 0, 0, 0, 0);
             this.screenPause.EnabledColor = System.Drawing.Color.White;
-            this.screenPause.ForeColor = System.Drawing.Color.Transparent;
+            this.screenPause.ForeColor = System.Drawing.Color.Maroon;
             this.screenPause.LedLayout = new System.Drawing.Color[] {
         System.Drawing.Color.White,
         System.Drawing.Color.Silver};
@@ -117,7 +118,7 @@
             this.screentStartTime.DisplayHour = 0;
             this.screentStartTime.DisplayMin = 0;
             this.screentStartTime.DisplaySec = 0;
-            this.screentStartTime.DisplayTime = new System.DateTime(2012, 11, 9, 0, 0, 0, 0);
+            this.screentStartTime.DisplayTime = new System.DateTime(2016, 7, 22, 0, 0, 0, 0);
             this.screentStartTime.EnabledColor = System.Drawing.Color.White;
             this.screentStartTime.ForeColor = System.Drawing.Color.Transparent;
             this.screentStartTime.LedLayout = new System.Drawing.Color[] {
@@ -137,7 +138,7 @@
             this.screentWorkTime.DisplayHour = 0;
             this.screentWorkTime.DisplayMin = 0;
             this.screentWorkTime.DisplaySec = 0;
-            this.screentWorkTime.DisplayTime = new System.DateTime(2012, 11, 9, 0, 0, 0, 0);
+            this.screentWorkTime.DisplayTime = new System.DateTime(2016, 7, 22, 0, 0, 0, 0);
             this.screentWorkTime.EnabledColor = System.Drawing.Color.White;
             this.screentWorkTime.ForeColor = System.Drawing.Color.Transparent;
             this.screentWorkTime.LedLayout = new System.Drawing.Color[] {
@@ -157,7 +158,7 @@
             this.segmentScreen.DisplayHour = 0;
             this.segmentScreen.DisplayMin = 0;
             this.segmentScreen.DisplaySec = 0;
-            this.segmentScreen.DisplayTime = new System.DateTime(2012, 11, 9, 0, 0, 0, 0);
+            this.segmentScreen.DisplayTime = new System.DateTime(2016, 7, 22, 0, 0, 0, 0);
             this.segmentScreen.EnabledColor = System.Drawing.Color.White;
             this.segmentScreen.ForeColor = System.Drawing.Color.Transparent;
             this.segmentScreen.LedLayout = new System.Drawing.Color[] {
@@ -231,8 +232,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(518, 323);
             this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.Coral;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.On;
