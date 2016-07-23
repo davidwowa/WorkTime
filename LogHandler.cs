@@ -44,7 +44,7 @@ namespace WorkTime
             return null;
         }
 
-        private Boolean isTodayAndRightId(EventLogEntry logEntry) {
+        private bool isTodayAndRightId(EventLogEntry logEntry) {
 
             if(istToday(logEntry) && logEntry.EventID == 6005 ){
                 return true;
