@@ -31,29 +31,6 @@ namespace WorkTime
             return valideLogs;
         }
 
-        private EventLogEntry getEntry() {
-            int today = new DateTime().DayOfYear;
-            string query = String.Format("SELECT * FROM Win32_NTLogEvent WHERE Logfile = 'System' AND TimeWritten > '{0}'", today);
-
-            ManagementObjectSearcher mos = new ManagementObjectSearcher(query);
-
-            object o;
-            foreach (ManagementObject mo in mos.Get())
-            {
-                foreach (PropertyData pd in mo.Properties)
-                {
-                    o = mo[pd.Name];
-                    if (o != null)
-                    {
-
-                        Console.WriteLine(o.ToString());
-                        //listBox1.Items.Add(String.Format("{0}: {1}", pd.Name, mo[pd.Name].ToString()));
-                    }
-                }
-            }
-            return null;
-        }
-
         public EventLogEntry getFirstTodayEntry() {
             if(valideLogs != null && valideLogs.Count > 0){
             EventLogEntry tmpEntry = (EventLogEntry)valideLogs[0];
@@ -62,7 +39,6 @@ namespace WorkTime
                     tmpEntry = entry;
                 }
             }
-            getEntry();
             return tmpEntry;
             }
             return null;
