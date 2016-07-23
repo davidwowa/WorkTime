@@ -1,0 +1,4 @@
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\x86\Debug\WorkTime.WorkTimeForm.resources
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\x86\Debug\WorTime.Properties.Resources.resources
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\x86\Debug\PCWorkTime.csproj.GenerateResource.Cache
+C:\Users\wdzak\workspaces\workspace\WorkTime\bin\Debug\WindowsApplication.exe.config

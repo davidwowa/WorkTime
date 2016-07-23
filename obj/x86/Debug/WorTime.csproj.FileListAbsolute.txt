@@ -1,0 +1,3 @@
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\x86\Debug\WorkTime.WorkTimeForm.resources
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\x86\Debug\WorTime.Properties.Resources.resources
+C:\Users\wdzak\workspaces\workspace\WorkTime\obj\x86\Debug\WorTime.csproj.GenerateResource.Cache
