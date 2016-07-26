@@ -49,7 +49,7 @@
             // panel1
             // 
             this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.screenPause);
             this.panel1.Controls.Add(this.label1);
@@ -61,6 +61,7 @@
             this.panel1.Controls.Add(this.pcWorkTime);
             this.panel1.Controls.Add(this.onTimeLabel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.ForeColor = System.Drawing.Color.White;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(518, 323);
@@ -72,7 +73,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(150, 199);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 29);
@@ -86,7 +87,7 @@
             this.screenPause.DisplayHour = 0;
             this.screenPause.DisplayMin = 0;
             this.screenPause.DisplaySec = 0;
-            this.screenPause.DisplayTime = new System.DateTime(2016, 7, 22, 0, 0, 0, 0);
+            this.screenPause.DisplayTime = new System.DateTime(2016, 7, 26, 0, 0, 0, 0);
             this.screenPause.EnabledColor = System.Drawing.Color.White;
             this.screenPause.ForeColor = System.Drawing.Color.Maroon;
             this.screenPause.LedLayout = new System.Drawing.Color[] {
@@ -104,7 +105,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(150, 141);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 29);
@@ -118,7 +119,7 @@
             this.screentStartTime.DisplayHour = 0;
             this.screentStartTime.DisplayMin = 0;
             this.screentStartTime.DisplaySec = 0;
-            this.screentStartTime.DisplayTime = new System.DateTime(2016, 7, 22, 0, 0, 0, 0);
+            this.screentStartTime.DisplayTime = new System.DateTime(2016, 7, 26, 0, 0, 0, 0);
             this.screentStartTime.EnabledColor = System.Drawing.Color.White;
             this.screentStartTime.ForeColor = System.Drawing.Color.Transparent;
             this.screentStartTime.LedLayout = new System.Drawing.Color[] {
@@ -138,7 +139,7 @@
             this.screentWorkTime.DisplayHour = 0;
             this.screentWorkTime.DisplayMin = 0;
             this.screentWorkTime.DisplaySec = 0;
-            this.screentWorkTime.DisplayTime = new System.DateTime(2016, 7, 22, 0, 0, 0, 0);
+            this.screentWorkTime.DisplayTime = new System.DateTime(2016, 7, 26, 0, 0, 0, 0);
             this.screentWorkTime.EnabledColor = System.Drawing.Color.White;
             this.screentWorkTime.ForeColor = System.Drawing.Color.Transparent;
             this.screentWorkTime.LedLayout = new System.Drawing.Color[] {
@@ -158,7 +159,7 @@
             this.segmentScreen.DisplayHour = 0;
             this.segmentScreen.DisplayMin = 0;
             this.segmentScreen.DisplaySec = 0;
-            this.segmentScreen.DisplayTime = new System.DateTime(2016, 7, 22, 0, 0, 0, 0);
+            this.segmentScreen.DisplayTime = new System.DateTime(2016, 7, 26, 0, 0, 0, 0);
             this.segmentScreen.EnabledColor = System.Drawing.Color.White;
             this.segmentScreen.ForeColor = System.Drawing.Color.Transparent;
             this.segmentScreen.LedLayout = new System.Drawing.Color[] {
@@ -189,7 +190,7 @@
             this.labelStartTime.AutoSize = true;
             this.labelStartTime.BackColor = System.Drawing.Color.Black;
             this.labelStartTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelStartTime.ForeColor = System.Drawing.Color.Transparent;
+            this.labelStartTime.ForeColor = System.Drawing.Color.White;
             this.labelStartTime.Location = new System.Drawing.Point(90, 241);
             this.labelStartTime.Name = "labelStartTime";
             this.labelStartTime.Size = new System.Drawing.Size(309, 29);
@@ -201,7 +202,7 @@
             this.pcWorkTime.AutoSize = true;
             this.pcWorkTime.BackColor = System.Drawing.Color.Black;
             this.pcWorkTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pcWorkTime.ForeColor = System.Drawing.Color.Transparent;
+            this.pcWorkTime.ForeColor = System.Drawing.Color.White;
             this.pcWorkTime.Location = new System.Drawing.Point(29, 83);
             this.pcWorkTime.Name = "pcWorkTime";
             this.pcWorkTime.Size = new System.Drawing.Size(225, 29);
@@ -213,7 +214,7 @@
             this.onTimeLabel.AutoSize = true;
             this.onTimeLabel.BackColor = System.Drawing.Color.Black;
             this.onTimeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.onTimeLabel.ForeColor = System.Drawing.Color.Transparent;
+            this.onTimeLabel.ForeColor = System.Drawing.Color.White;
             this.onTimeLabel.Location = new System.Drawing.Point(90, 24);
             this.onTimeLabel.Name = "onTimeLabel";
             this.onTimeLabel.Size = new System.Drawing.Size(164, 29);
