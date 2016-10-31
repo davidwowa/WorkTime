@@ -47,7 +47,7 @@ namespace WorkTime
         private bool isTodayAndRightId(EventLogEntry logEntry) {
             // search another id
             // TODO Problem with speed start on windows, wenn this on is, then no logging
-            if(istToday(logEntry) && logEntry.EventID == 6005 ){
+            if(istToday(logEntry) && logEntry.EventID == 100 ){
                 return true;
             }
             return false;
